@@ -1354,7 +1354,7 @@ if (jQuery) {
         var bottom = $this.offset().top + container_height;
         var top = $this.offset().top;
         var scrollTop = $(window).scrollTop();
-        var windowHeight = window.innerHeight;
+        var windowHeight = window.innerHeight+1000;
         var windowBottom = scrollTop + windowHeight;
         var percentScrolled = (windowBottom - top) / (container_height + windowHeight);
         var parallax = Math.round((parallax_dist * percentScrolled));
