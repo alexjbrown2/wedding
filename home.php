@@ -4,7 +4,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>Parallax Template - Materialize</title>
+  <title>Alex + AJ</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -22,19 +22,18 @@
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo"><p>Alex and Amanda</p><span class='small-date'>10.14.2017</span></a>
       <ul class="right hide-on-med-and-down unburger-menu">
-	<li><a href="#">About Us</a></li>
-        <li><a href="#">The Venue</a></li>
-	<li><a href="#">Wedding Party</a></li>
-	<li><a href="#">Accommodations</a></li>
-	<li><a href="#">Weekend Events</a></li>
+	<li><a href="#top" class="btn-quick">Quick Links</a></li>
+	<li><a href="#directions" class="btn-quick">Directions</a></li>
+	<li><a href="#weddingparty" class="btn-quick">Wedding Party</a></li>
+	<li><a href="#connect" class="btn-quick">Connect</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-	<li><a href="#">About Us</a></li>
-        <li><a href="#">The Venue</a></li>
-      	<li><a href="#">Wedding Party</a></li>
-	<li><a href="#">Accomodations</a></li>
-	<li><a href="#footer" class="btn-quick">Weekend Events</a></li>
+	<li><a href="#top" class="btn-quick">Quick Links</a></li>
+        <li><a href="#directions" class="btn-quick">Directions</a></li>
+      	<li><a href="#weddingparty" class="btn-quick">Wedding Party</a></li>
+	<li><a href="#connect" class="btn-quick">Connect</a></li>
+	<li><a href="#footer" class="btn-quick">TL;DR</a></li>
       </ul>
       <a data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
      <a class="side-nav-button-container"><div class="side-nav-button">&#x22CF;     Menu      &#x22CF;</div></a>
@@ -56,11 +55,11 @@
 
       </div>
     </div>
-    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><!--<img src="images/ajab-bg1.jpg" alt="background-image-1">--><div class="image-parallax image-one"></div></div>
   </div>
 
 
-  <div class="container first-container">
+  <div class="container first-container" id="top">
     <div class="section">
 
       <!--   Icon Section   -->
@@ -69,23 +68,23 @@
           <div class="icon-block">
             <h2 class="center icon-head"><div class="icons first-icon"></div></h2>
             <h5 class="center">Schedule</h5>
-	    <p>10.13.2017</p>
+	    <h6>10.13.2017</h6>
          	<ul class="light">
-			<li><span>9:00a-3:00p</span>Wedding Party Golf Outing</li>
-			<li><span>5:30p-8:30p</span>Rehearsal Dinner</li>
-			<li><span>8:30-10:00p</span>Party at the Groomsmen cabin</li>
+			<li><span>TBA-TBA</span>Wedding Party Golf Outing</li>
+			<li><span>TBA-TBA</span>Wedding Party Games</li>
+			<li><span>TBA-TBA</span>Rehearsal Dinner</li>
+			<li><span>TBA-TBA</span>Rehearsal After-Party</li>
 		</ul>
-	    <p>10.14.2017</p>
+	    <h6>10.14.2017</h6>
 		<ul class="light">
-                        <li><span>8:00a-12:00p</span>More Golf. Just Groomsmen this time.</li>
-                        <li><span>1:00p-3:00p</span>Everyone gets ready.</li>
-                        <li><span>4:00p-5:00p</span>Pictures</li>
-                        <li><span>5:00p-5:15p</span>Wedding Ceremony</li>
-                        <li><span>5:20p-11:00p</span>Greatest party of all time.</li>
+                        <li><span>TBA-TBA</span>Morning Activities</li>
+                        <li><span>TBA-TBA</span>Pictures</li>
+                        <li><span>TBA-TBA</span>Wedding Ceremony</li>
+                        <li><span>TBA-TBA</span>Greatest party of all time.</li>
                 </ul>
-	    <p>10.15.2017</p>
+	    <h6>10.15.2017</h6>
 		<ul class="light">
-                        <li><span>9:30a-11:00a</span>Light Brunch</li>
+                        <li><span>TBA-TBA</span>Light Brunch?</li>
                 </ul>
           </div>
         </div>
@@ -94,8 +93,9 @@
           <div class="icon-block">
             <h2 class="center icon-head"><div class="icons second-icon"></div></h2>
             <h5 class="center">Places to Stay</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+		<p>We have reserved a block of rooms at these 2 great hotels. Both are situated within 5 miles of the venue and both offer free shuttle services to and from the venue. They are also both specially priced at $99 a night for Friday 10/13 and Saturday 10/14. If you don't book using these links provided, please ask to book with the Brown/Jewell wedding block to receive the special price. <span class="emp">(If the Hyatt link does not immediately show you the discounted price, Enter group code "G-JEBR" on the booking page.</span></p>
+		<a href="http://dullesairportnorth.place.hyatt.com/en/hotel/home.html?corp_id=G-JEBR"><div class="book-button">Book Hyatt Dulles North</div></a>
+		<a href="http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Brown/Jewell%20Wedding%5Eiadtc%60BJWBJWA%7CBJWBJWB%6099.00%60USD%60false%605%6010/13/17%6010/15/17%609/15/17&app=resvlink&stop_mobi=yes"><div class="book-button">Book Courtyard Dulles North</div></a>
           </div>
         </div>
 
@@ -104,7 +104,12 @@
             <h2 class="center icon-head"><div class="icons third-icon"></div></h2>
             <h5 class="center">Registry Information</h5>
 
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+            <p class="light">We have chosen to give our guests multiple options for gifts. If you would like to forgo the material gifts, we have set up honeymoon and first home funds on Zola Registry.</p>
+	    <a href="https://www.zola.com/registry/ajb1014"><div class="book-button">Zola Registry</div></a>
+                <a href="tgt.gifts/ajb1014"><div class="book-button">Target</div></a>
+		<a href="https://www.bedbathandbeyond.com:443/store/giftregistry/view_registry_guest.jsp?registryId=544816991&eventType=Wedding&pwsurl="><div class="book-button">Bed Bath and Beyond</div></a>
+
+
           </div>
         </div>
       </div>
@@ -117,14 +122,14 @@
     <div class="section no-pad-bot">
       <div class="container-para">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12 light inner-heart">&#10084;&#xFE0E;</h5>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><div class="image-parallax image-two"></div><!--<img src="background2.jpg" alt="Unsplashed background img 2">--></div>
   </div>
 
-  <div class="container directions-container">
+  <div class="container directions-container" id="directions">
     <div class="section">
 
       
@@ -134,8 +139,23 @@
 	<div class="row">
 
         <div class="col s12 google-maps">
-          
-	    <div id="floating-panel">
+            <div id="mobile-directions">
+
+		
+		<input type="text" id="origin-input" placeholder="Starting Point"></input>
+                <select id="end">
+                <option>Select Endpoint</option>
+                <option value="47001 Fairway Dr, Sterling, VA 20165">Algonkian Regional Park</option>
+                <option value="21481 Ridgetop Cir, Sterling, VA 20166">Hyatt Sterling Dulles North</option>
+                <option value=" 45500 Majestic Drive,  Dulles, VA 20166">Courtyard Dulles Town Center</option>
+                </select>
+                <div id="get-mobile-directions" class="get-directions">Get There!</div>
+
+
+		</div> 
+	    
+
+	<div id="floating-panel">
       
      		<input type="text" id="origin-input" placeholder="Starting Point"></input> 
       		<select id="end">
@@ -144,7 +164,7 @@
         	<option value="21481 Ridgetop Cir, Sterling, VA 20166">Hyatt Sterling Dulles North</option>
       		<option value=" 45500 Majestic Drive,  Dulles, VA 20166">Courtyard Dulles Town Center</option>
 		</select>
-		<div id="get-directions" class="get-directions btn">Get Directions</div>
+		<div id="get-directions" class="get-directions">Get There!</div>
     	</div>
     <div id="right-panel"></div>
     <div id="map"></div>
@@ -160,16 +180,16 @@
     <div class="section no-pad-bot">
       <div class="container-para">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12 light inner-heart">&#10084;&#xFE0E;</h5>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><div class="image-parallax image-three"></div></div>
   </div>
 
 
 
-  <div class="container party-container">
+  <div class="container party-container" id="weddingparty">
     <div class="section">
 	<div class="row amatic">
         <h2>Wedding Party</h2>
@@ -213,24 +233,24 @@
     <div class="section no-pad-bot">
       <div class="container-para">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12 light inner-heart">&#10084;&#xFE0E;</h5>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><div class="image-parallax image-four"></div></div>
   </div>
 
 
-  <div class="container fb-container">
+  <div class="container fb-container" id="connect">
     <div class="section">
 	<div class="row amatic">
-	<h2>Get Connected</h2>
+	<h2>Connect</h2>
 	</div>
       <div class="row">
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4></h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+          <p class="left-align light">Section Coming Soon.</p>
         </div>
       </div>
 
@@ -242,11 +262,11 @@
     <div class="section no-pad-bot">
       <div class="container-para">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12 light inner-heart">&#10084;&#xFE0E;</h5>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><div class="image-parallax image-five"></div></div>
   </div>
 
 
@@ -269,19 +289,17 @@
         <div class="col l3 s12">
           <h5 class="white-text">Book Hotel</h5>
           <ul>
-            <li><a class="white-text" href="#!">Book Hotel - Hyatt Dulles North</a></li>
-            <li><a class="white-text" href="#!">Book Hotel - Courtyard Dulles Town Center</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+            <li><a class="white-text" href="http://dullesairportnorth.place.hyatt.com/en/hotel/home.html?corp_id=G-JEBR">Book Hotel - Hyatt Dulles North</a></li>
+            <li><a class="white-text" href="http://dullesairportnorth.place.hyatt.com/en/hotel/home.html?corp_id=G-JEBR">Book Hotel - Courtyard Dulles Town Center</a></li>
+            
           </ul>
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
+          <h5 class="white-text">Registries</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+            <li><a class="white-text" href="https://www.zola.com/registry/ajb1014">Zola Registry</a></li>
+            <li><a class="white-text" href="tgt.gifts/ajb1014">Target</a></li>
+            <li><a class="white-text" href="https://www.bedbathandbeyond.com:443/store/giftregistry/view_registry_guest.jsp?registryId=544816991&eventType=Wedding&pwsurl=">Bed Bath and Beyond</a></li>
           </ul>
         </div>
       </div>

@@ -1,4 +1,44 @@
 $(function(){
+
+function getMobileOperatingSystem() {
+  var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+      // Windows Phone must come first because its UA also contains "Android"
+    if (/windows phone/i.test(userAgent)) {
+        return "Windows Phone";
+    }
+
+    if (/android/i.test(userAgent)) {
+        return "Android";
+    }
+
+    // iOS detection from: http://stackoverflow.com/a/9039885/177710
+    if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+        return "iOS";
+    }
+
+    return "unknown";
+}
+
+var windowHeight = $(window).height();
+
+$('.side-nav-button').css({'top': windowHeight / 2});
+//Parrallax init
+$(window).scroll(function () {
+    if($(window).width() > 600){
+
+    $(".image-one").css("background-position","65% " + (($(this).scrollTop() / 2) - 48) + "px");
+    $(".image-two").css("background-position","47% " + ((($(this).scrollTop()- $('.image-two').offset().top) / 4)) + "px");
+    $(".image-three").css("background-position","55% " + ((($(this).scrollTop()- $('.image-three').offset().top) / 4)) + "px");
+    $(".image-four").css("background-position","66% " + ((($(this).scrollTop()- $('.image-four').offset().top) / 4)) + "px");
+//$(".image-five").css("background-position","45% " + ((($(this).scrollTop()- $('.image-five').offset().top) /5)-80) + "px");
+	}
+})
+
+
+
+
+
 var json;
 
 var nameArray = [];

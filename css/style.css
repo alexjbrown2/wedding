@@ -16,14 +16,18 @@ margin: -5px;
 line-height: 2.35em;
 
 }
+#index-banner{
+display:flex;
+align-items:center;
+}
 /*containers*/
 .party-container{
-height:700px;
+height:750px;
 display:flex;
 width:100%;
 }
 .party-container .section{
-width:100%;
+width:82%;
 }
 .picture-div{
 height:100%;
@@ -31,6 +35,7 @@ width:45%
 
 }
 .diamond{
+  position:relative;
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -51,23 +56,86 @@ width:45%
   transform: rotateZ(-45deg)   ;
   -webkit-transform-origin: 0 100% 0deg;
   transform-origin: 0 100% 0deg;
-
+  overflow: hidden;
+  cursor: pointer;
 }
 .pic1{
+ 
+}
+.pic1:before {
+	content: "";
+    position: absolute;
+    width: 147%;
+    height: 161%;
+    top: -24px;
+    left: -20px;
+    z-index: -1;
+    background: url(../images/weddingpartyphotos/edit/kristin-edit.jpg);
+    background-position: center center;
+    background-size: cover;
+    -webkit-transform: rotate(38deg);
+    transform: rotate(38deg);
 }
 .pic2{
-margin-left: -41px;
+    margin-left: -41px;
     margin-top: -19px;
+}
+
+.pic2:before {
+    content: "";
+    position: absolute;
+    width: 144%;
+    height: 149%;
+    top: -24px;
+    left: -16px;
+    z-index: -1;
+    background: url(../images/weddingpartyphotos/edit/arod-edit.jpg);
+    background-position: center center;
+    background-size: cover;
+    -webkit-transform: rotate(42deg);
+    transform: rotate(42deg);
+
 }
 
 .pic3{
     margin-top: -94px;
     margin-left: 103px;
 }
+.pic3:before{
+    content: "";
+    position: absolute;
+        width: 159%;
+    height: 162%;
+    top: -26px;
+    left: -23px;
+
+    z-index: -1;
+    background: url(../images/weddingpartyphotos/edit/jenn-edit.jpg);
+    background-position: center center;
+    background-size: cover;
+    -webkit-transform: rotate(42deg);
+    transform: rotate(42deg);
+
+}
 
 
 .pic4{
 margin-top: -19px;
+}
+
+.pic4:before{
+content: "";
+    position: absolute;
+    width: 135%;
+    height: 139%;
+    top: -14px;
+    left: -15px;
+    z-index: -1;
+    background: url(../images/weddingpartyphotos/edit/alexa-edit.jpg);
+    background-position: center center;
+    background-size: 90%;
+    -webkit-transform: rotate(31deg);
+    transform: rotate(31deg);
 }
 
 
@@ -76,15 +144,57 @@ margin-top: -19px;
     margin-left: -41px;
 }
 
+.pic5:before{
+    content: "";
+    position: absolute;
+    width: 144%;
+    height: 149%;
+    top: -18px;
+    left: -16px;
+	z-index: -1;
+    background: url(../images/weddingpartyphotos/edit/alyssa-edit.jpg);
+    background-position: center center;
+    background-size: cover;
+    -webkit-transform: rotate(42deg);
+    transform: rotate(42deg);
+
+}
 
 .pic6{
     margin-left: 103px;
     margin-top: -94px;
 }
 
-
+    .pic6:before{
+    content: "";
+    position: absolute;
+    width: 144%;
+    height: 149%;
+    top: -19px;
+    left: -21px;
+    z-index: -1;
+    background: url(../images/weddingpartyphotos/edit/ab-edit.jpg);
+    background-position: center center;
+    background-size: cover;
+    -webkit-transform: rotate(42deg);
+    transform: rotate(42deg);
+}
 .pic7{
     margin-top: -19px;
+}
+   .pic7:before{
+    content: "";
+    position: absolute;
+    width: 146%;
+    height: 149%;
+    top: -18px;
+    left: -20px;
+    z-index: -1;
+    background: url(../images/weddingpartyphotos/edit/Chris-edit.jpg);
+    background-position: center center;
+    background-size: 87%;
+    -webkit-transform: rotate(42deg);
+    transform: rotate(42deg);
 }
 
 
@@ -92,16 +202,58 @@ margin-top: -19px;
     margin-top: -19px;
     margin-left: -41px;
 }
+   .pic8:before{
+        content: "";
+    position: absolute;
+    width: 188%;
+    height: 188%;
+    top: -43px;
+    left: -40px;
+    z-index: -1;
+    background: url(../images/weddingpartyphotos/edit/pat-edit.jpg);
+    background-position: center center;
+    background-size: cover;
+    -webkit-transform: rotate(42deg);
+    transform: rotate(42deg);
+}
 
 
 .pic9{
     margin-top: -94px;
     margin-left: 103px;
 }
+.pic9:before{
+content: "";
+    position: absolute;
+    width: 137%;
+    height: 140%;
+    top: -18px;
+    left: -16px;
+    z-index: -1;
+    background: url(../images/weddingpartyphotos/edit/ping-edit.jpg);
+    background-position: center center;
+    background-size: 81%;
+    -webkit-transform: rotate(42deg);
+    transform: rotate(42deg);
+}
 
 
 .pic10{
 	margin-top: -19px;
+}
+.pic10:before{
+    content: "";
+    position: absolute;
+    width: 144%;
+    height: 149%;
+    top: -24px;
+    left: -16px;
+    z-index: -1;
+    background: url(../images/weddingpartyphotos/edit/jay-edit.jpg);
+    background-position: center center;
+    background-size: 80%;
+    -webkit-transform: rotate(42deg);
+    transform: rotate(42deg);
 }
 
 
@@ -125,6 +277,9 @@ font-family: 'Amatic SC', Arial, sans-serif;
 display:flex;
 align-items:center;
 justify-content:center;
+    padding-top: 40px;
+    margin-top: 40px;
+    border-top: 4px double #26a69a;
 }
 .icons{
 height:90px;
@@ -160,9 +315,20 @@ p {
   height: auto;
   color: rgba(255,255,255,.9);
 }
+  .parallax-container .image-parallax{
+	transition: 0s linear;
+        transition-property: background-position:
+}
   .parallax-container .section {
     width: 100%;
   }
+
+.first-container .icon-block h6{
+   font-weight: bold;
+}
+.first-container .icon-block ul span{
+   margin: 0 10px;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -193,7 +359,6 @@ footer.page-footer {
 .container{
 width:100%;
 padding: 0 10%;
-box-shadow: 0px 16px 14px -11px rgba(0,0,0,0.4);
 }
 .side-nav-button-container{
     position: fixed;
@@ -216,7 +381,6 @@ margin: 0 -10px;
     display: flex;
     width: 109px;
     left: -42px;
-    top: 45%;
     opacity: 0;
     transform: rotate(90deg);
     color: #000;
@@ -234,6 +398,11 @@ margin: 0 -10px;
 }
 .disabled{
   left:-133px
+}
+@media only screen and (min-width: 1440px) and (max-width:3000px){
+.parallax-container{
+min-height:470px;
+}
 }
 
 @media only screen and (max-width: 660px){
@@ -288,8 +457,58 @@ display:flex;
 
 #floating-panel{
     flex-wrap:wrap;
+    display:none !important;
+    z-index:-500 !important;
+    opacity: 0;
+}
+#mobile-directions{
+        background: #fff;
+    padding: 5px;
+    font-size: 14px;
+    font-family: Arial;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 2px rgba(33, 33, 33, 0.4);
+    
+    display:flex !important;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    
+    position: absolute;
+    top: 10px;
+    z-index: 5;
+    left: 0;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #999;
+    text-align: center;
+    font-family: 'Roboto','sans-serif';
+    line-height: 30px;
+    font-size: 14px;
+    box-shadow: 0 2px 2px rgba(33, 33, 33, 0.4);
+    display: flex !important;
+    width: 100%;
+}
+#mobile-directions input, #mobile-directions select{
+   padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 8px;
+    box-shadow: inset 0px 1px 4px 1px; 
+    display: block;
+    font-weight:18px;    
 }
 
+#mobile-directions input{
+	height: 20px;
+        width: 92%;
+}
+#mobile-directions select{
+	height: 45px;
+}
+.image-two{
+background-position: 47% -22.98px !important;
+}
 
 
 }
@@ -478,4 +697,106 @@ padding: 1em !important;
 }
 .person-box .name-title{
    font-family: "Sacramento", Arial, sans-serif;
+}
+.book-button{
+	width: 100%;
+    background: lightgray;
+    padding: 5px 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-weight: bold;
+    text-shadow: 1px 0.5px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.3);
+}
+.first-container p{
+  text-align:center;
+}
+.inner-heart{
+ font-size: 100px;
+    font-family:'Roboto', 'Arial', sans-serif;
+    text-shadow: 0px 2px 2px rgba(0,0,0,0.5);
+    opacity: .9;
+    line-height: 30px;
+}
+
+/*Parallax backgrounds*/
+
+.image-parallax{
+   box-shadow: inset 0px 9px 17px -9px rgb(0, 0, 0);
+}
+.image-parallax.image-one{
+    height: 511px;
+    width: 100%;
+    background: url(../images/ajab-bg1.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: 65% -48px;
+}
+
+.image-parallax.image-two{
+    height: 426px;
+    width: 100%;
+    background: url(../images/ajab-bg2.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    background-size: cover;
+    background-position: 47% -118px;
+}
+.image-parallax.image-three{
+       height: 516px;
+    width: 100%;
+    background: url(../images/ajab-bg9.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    background-size: cover;
+    background-position: 55% -118px;
+}
+.image-parallax.image-four{
+   height: 473px;
+    width: 100%;
+    background: url(../images/ajab-bg6.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    background-size: cover;
+    background-position: 66% 36%;
+}
+.image-parallax.image-five{
+height: 473px;
+    width: 100%;
+    background: url(../images/ajab-bg5.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    background-size: cover;
+    background-position: 44% 65%;
+}
+#footer a{
+text-decoration: underline;
+}
+.get-directions{
+    width: 45%;
+    height: 40px;
+    background: #b1dcfb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0px 1px 1px rgba(0,0,0,0.7);
+    /* color: black; */
+    border-radius: 8px;
+    /* border-top: 3px solid rgba(33, 68, 93, 0.08); */
+    cursor: pointer;
+    box-shadow: 0px 2px 2px 0px rgb(41, 41, 41);
+
 }
